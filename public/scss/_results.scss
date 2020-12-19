@@ -1,0 +1,15 @@
+#result {
+  width: 300px;
+  height: 300px;
+  margin-top: 40px;
+  &.correct {
+    background: url(../img/correct.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &.incorrect {
+    background-image: url(../img/incorrect.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

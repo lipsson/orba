@@ -1,0 +1,42 @@
+{
+  "name": "bracats-mlipinski",
+  "version": "1.0.0",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-cli": "^2.3.0",
+    "serve-static": "^1.13.2",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "del": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.0",
+    "jest": "^24.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "description": "Bracats Checker ===============",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lipsson/orba.git"
+  },
+  "author": "Michal Lipinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lipsson/orba/issues"
+  },
+  "homepage": "https://github.com/lipsson/orba#readme"
+}

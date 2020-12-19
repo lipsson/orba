@@ -1,0 +1,10 @@
+version: "2"
+services:
+  node:
+    image: "node:8"
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"
+    command: bash -c "yarn install && yarn start"
